@@ -108,7 +108,6 @@ void exam3(cv::InputArray src) {
 // This operation simulates  reducing the image spatial resolution.
 // Repeat this for 5×5  blocks and 7×7 blocks.
 // If you are using Matlab, investigate  simple command lines to do this important operation.
-
 void exam4(cv::InputArray src) {
     // INTER_CUBIC look like the requirement. But it seems like take the weight.
     cv::Mat dst;
