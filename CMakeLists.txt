@@ -12,6 +12,7 @@ project(learn_image_processing)
 
 file(COPY ${CMAKE_CURRENT_SOURCE_DIR}/imgs DESTINATION ${CMAKE_BINARY_DIR})
 
-# Found OpenCV: E:/source/vcpkg/installed/x64-windows (found version "4.3.0")
-# why you can't use the x32 version?
+find_package(OpenCV REQUIRED)
+
 add_subdirectory(week1)
+add_subdirectory(week3)

@@ -131,7 +131,9 @@ int main() {
 //    cv::waitKey(0);
 
     cv::Mat img = cv::imread("../imgs/lena.jpg");
+    cv::imshow("lena", img);
+    cv::waitKey(0);
 //    exam2(img);
 //    exam3(img);
-    exam4(img);
+//    exam4(img);
 }
