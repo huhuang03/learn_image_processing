@@ -1,0 +1,5 @@
+* Goal
+After learn, I want to load an bmp image, and save it as jpg_demo(which do much like jpg compress) and then
+reload and show in ~cv::imshow~. It's a big project. Come on!!
+
+Jump for now, becuase I think it's hard to me, if I can't go on because this. I will go back to see again.

@@ -4,7 +4,6 @@ set(CMAKE_AUTOUIC ON)
 
 find_package(Qt5 COMPONENTS Widgets)
 
-find_package(OpenCV REQUIRED)
 
 add_executable(test_affine_transformation test_affine_transformation.cc)
 
