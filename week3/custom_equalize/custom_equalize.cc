@@ -8,6 +8,6 @@
 void custom_equalize(cv::InputArray in, cv::OutputArray out) {
     std::map<int, int> count;
     for (unsigned char gray: cv::Mat_<unsigned char>(in.getMat())) {
-        std::cout << gray << " ";
+        std::cout << (int)gray << " ";
     }
 }
