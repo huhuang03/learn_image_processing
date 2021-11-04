@@ -30,6 +30,6 @@ void custom_equalize(cv::InputArray in, cv::OutputArray out) {
 
    cv::Mat normalized;
    // now normalize to 256
-   cv::normalize(out, normalized, 0.0, 256.0);
-   normalized.assignTo(out);
+   cv::normalize(out, normalized, 0, 256, cv::NORM_MINMAX);
+//   normalized.assignTo(out);
 }

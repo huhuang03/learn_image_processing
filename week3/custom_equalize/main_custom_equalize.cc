@@ -12,9 +12,9 @@ int main() {
     cv::equalizeHist(img, equalize1);
     cv::imshow("official equalize", equalize1);
 
-    cv::Mat equalize2;
-    custom_equalize(img, equalize2);
-    cv::imshow("custom equalize", equalize1);
+//    cv::Mat equalize2;
+//    custom_equalize(img, equalize2);
+//    cv::imshow("custom equalize", equalize1);
 
     cv::waitKey(0);
     return 0;
