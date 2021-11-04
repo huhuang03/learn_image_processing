@@ -9,7 +9,7 @@ void showHistogram(std::string const &name, cv::Mat1b const&img) {
     cv::Mat hist;
     int channels = {0};
     int const hist_height = 256;
-    cv::Mat3b hist_imge = cv::Mat3b::zeros(hist_height, bins);
+    cv::Mat3b hist_img = cv::Mat3b::zeros(hist_height, bins);
 
     cv::calcHist(&img, 1, &channels, cv::Mat(), hist, 1, histSize, ranges);
 
@@ -19,12 +19,12 @@ void showHistogram(std::string const &name, cv::Mat1b const&img) {
     for (int b = 0; b < bins; b++) {
         float const binVal = hist.at<float>(b);
         int const height = cvRound(binVal * hist_height / maxVal);
-        cv::line(hist_imge,
+        cv::line(hist_img,
                  cv::Point(b, hist_height - height),
                  cv::Point(b, hist_height),
                  cv::Scalar::all(255));
     }
-    cv::imshow(name, hist_imge);
+    cv::imshow(name, hist_img);
 }
 
 int main() {
