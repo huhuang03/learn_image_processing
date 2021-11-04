@@ -33,17 +33,15 @@ int main() {
 
     showHistogram("origin hist", img);
 
-//    cv::Mat histImg;
-//    cv::equalizeHist(img, histImg);
-//    cv::imshow("origin_hist", histImg);
+    cv::Mat equalOrigin;
+    cv::equalizeHist(img, equalOrigin);
+    cv::imshow("equalHist", equalOrigin);
+    showHistogram("origin equalize hist", equalOrigin);
 
-    cv::Mat inverse = 255 - img;
-    cv::imshow("inverse", inverse);
-    showHistogram("inverse_hist", inverse);
 
-//    cv::Mat histInverse;
-//    cv::equalizeHist(inverse, histInverse);
-//    cv::imshow("inverse_hist", histInverse);
+//    cv::Mat inverse = 255 - img;
+//    cv::imshow("inverse", inverse);
+//    showHistogram("inverse_hist", inverse);
 
     cv::waitKey(0);
     return 0;

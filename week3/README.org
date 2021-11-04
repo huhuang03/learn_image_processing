@@ -1,0 +1,4 @@
+直方图均衡化
+
+* TODO
+so how to do a hist equalize?
