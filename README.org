@@ -5,3 +5,10 @@ Stop because I will look the <digital image processing> directly.
 - https://zhuanlan.zhihu.com/p/85299446
 - https://www.zhihu.com/question/22085329/answer/774074211
 - [[histogram equalization][https://docs.opencv.org/3.4.15/d4/d1b/tutorial(escape underline)histogram(escape underline)equalization.html]]
+- [[histogram equalization][https://docs.opencv.org/3.4.15/d4/d1b/tutorial(escape underline)histogram(escape underline)equalization.html]]
+
+
+* TODO
+- week3 home work
+- week3 quiz
+- week3 look the 1/(L-1) again.
